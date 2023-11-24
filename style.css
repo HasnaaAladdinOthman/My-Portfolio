@@ -1,0 +1,68 @@
+.gradient-background {
+    background: linear-gradient(300deg, #2FDD92, #78C1F3, #A2FF86);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+@keyframes gradient-animation {
+  0% {
+      background-position: 0% 50%;
+    }
+  50% {
+      background-position: 100% 50%;
+    }
+  100% {
+      background-position: 0% 50%;
+    }
+}
+
+.body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.sub-header-color{
+  color:beige;
+}
+.text-color{
+  color:#FFFFDD;
+}
+.my-img{
+  border-radius: 50%;
+}
+
+.form-style{
+  display: inline;
+}
+
+.nav-masthead{
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.get-in-touch{
+  color:white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+.contact-button{
+  display: flex-inline;
+  justify-content: center;
+  width: 10rem;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
