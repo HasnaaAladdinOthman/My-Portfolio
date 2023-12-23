@@ -1,2 +1,2 @@
 # My-Portfolio
-My Full-Stack web development portfolio
+My portfolio
